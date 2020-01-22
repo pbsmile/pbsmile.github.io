@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1400px;
+    background: #ebebeb;
+}
+
+.applogo button{
+    margin: 0;
+    float: left;
+    margin-left: 45px;
+    padding-top: 5px;
+    width: 100px;
+    height: 15px;
+    background: #32b998;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.post_scroll h{
+    color: white;
+    background: #32b998;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    margin: 10px 10px;
+}
+/*menu friendlyshare*/
+.menubar{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background: #32b998
+}
+
+.container{
+    width: 100%;
+    height: 70%
+    margin: 0 auto;
+    background-color: #ebebeb
+}
+
+.menubar img{
+    margin: 0;
+    float: left;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.menubar h1{
+    margin: 0;
+    font-weight: normal;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+/*white box*/
+.box_area {
+    width: 480px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff
+}
+
+.box_area img{
+    margin: 0;
+    float: left;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+
+
+::placeholder {
+    color: red;
+  }
+
+.box_area input{
+    border: 2px solid #333333;
+    border-radius: 30px;
+    width: 425px;
+    height: 60px;
+    margin: 20px 30px;
+}
+
+.box_area p{
+    margin: 0;
+    float: left;
+    margin-left: 55px;
+    padding-top: 25px;
+    font-weight: 100;
+}
+
+.model{
+    width: 480px;
+    height: 340px;
+    margin: 0 auto;
+    background-color: #ffffff
+}
+
+
+::placeholder {
+    color: red;
+  }
+
+/*blackbox*/
+.boxtopic_area {
+    width: 480px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: black;

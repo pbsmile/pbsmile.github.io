@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post</title>
+
+    <link rel="stylesheet" type="text/css" href="postapp.css">
+</head>
+<body>
+
+    <div class="menubar">
+        <div class="container">
+            <div class="applogo">
+                    <a href="home.html"><img src="src\logo1.png" alt="">
+                <h1><font face = "Big John" size = "6" color = "#ffffff">FRIENDLYSHARE</font></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="descripbox">
+        <div class="container">
+            <div class="boxtopic_area">
+                <div>
+                    <h1 style="position: absolute;left: 470px;top: 75px"><font face = "Big John" size = "5" color = "#32b998">TOPIC</font></h1>
+                    <h1 style="position: absolute;left: 470px;top: 120px"><font face = "Big John" size = "4" color = "#ffffff">TAG
+                    </font></h1>
+                    <h1 style="position: absolute;left: 470px;top: 150px"><font face = "Big John" size = "4" color = "#ffffff">MEMBERS : </font></h1>
+                    <h1 style="position: absolute;left: 470px;top: 180px"><font face = "Big John" size = "4" color = "#ffffff">BRAND : </font></h1>
+                    <h1 style="position: absolute;left: 470px;top: 210px"><font face = "Big John" size = "4" color = "#ffffff">DATE : </font></h1>
+                </div>
+                <!--tag number-->
+                <div style="position:absolute;width: 30%;color: #32b998;left: 527px;top: 155px;">
+                    <a><select name="number of members" id="members"style="width: 60%;color: white;background-color: #32b998">
+                        <option value="0" selected disabled>tags</option>
+                        <option value="1">food</option>
+                        <option value="2">media</option>
+                        <option value="3">car</option>
+                    </select></a>
+                </div>
+
+                <!--input members-->
+                <div style="position:absolute;width: 30%;color: #32b998;left: 587px;top: 183px;">
+                    <a><select name="number of members" id="members"style="width: 60%;color: white;background-color: #32b998">
+                        <option value="0" selected disabled>persons</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select></a>
+                </div>
+
+                <!--bands-->
+                <form action="/action_page.php">
+                    <input style="position:absolute;width: 20%;color: #32b998;left: 567px;top: 213px;background-color: black" type="text" name="band" value=""><br>
+                    <!--send value
+                    <input type="submit" value="Submit">
+                    -->
+                </form>
+                <!--date-->
+                <div>
+                    <h3 id="id03" style="position: absolute;left: 477px;top: 245px;color: white"><font face = "Big John" size = "3">time</font></h1>
+                    <script>
+                        var element = document.getElementById("id03");
+                        element.innerHTML = Date();
+                    </script>
+                </div>
+            </div>
+
+            <!--descrip-->
+            <div class="box_area">
+                <h1 style="position: absolute;left: 470px;top: 300px"><font face = "Big John" size = "5" color="black">MORE DESCRIPTIONS</font></h1>
+                <form action="/action_page.php">
+                    <!--<input style="position:absolute;width: 35%;height: 40%; color: #32b998;left: 380px;top: 350px;" type="text" name="members" value=""><br>-->
+                    <textarea style="position:absolute;width: 28%;height: 30%;left: 480px;top: 370px;" name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                    <!--send value
+                    <input type="submit" value="Submit">
+                    -->
+                </form>
+                <a href="home.html"><button style="position:absolute;width: 7%;height: 7%;left: 680px;top: 610px;><font face = "Big John" size = "5" color>POST</font></button><br>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
